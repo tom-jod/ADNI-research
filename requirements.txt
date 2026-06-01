@@ -1,0 +1,13 @@
+pandas>=2.1
+numpy>=1.25
+matplotlib>=3.7
+seaborn>=0.12
+statsmodels>=0.14
+scipy>=1.11
+scikit-learn>=1.2
+patsy>=0.5
+jupyter>=1.0
+notebook>=6.5
+ipykernel>=6.28
+tqdm>=4.65
+openpyxl>=3.1

@@ -7,7 +7,7 @@ This notebook implements preprocessing, cohort construction, and mixed-effects l
 - **Scope:** Data preprocessing, cohort derivation, diagnosis transition analysis, subgroup comparisons, MLM fitting, plotting, and saving results.
 
 **Data Inputs**
-- Required CSVs (in `data/`): `CSF_AD.csv`, `demo_and_comorb.csv`, `DXSUM_17Feb2026.csv`, `MEDHIST_17Feb2026.csv`, `RECMHIST_17Feb2026.csv`, plus outcome files used later (e.g., `CDR_19Feb2026.csv`, `MMSE_11Mar2026.csv`, `FAQ_24Feb2026.csv`).
+- Required CSVs (store in `data/` and change the date for the date that you download the data on): `DXSUM_{date}.csv`, `PTDEMOG_{date}.csv`, `ADAS_{date}.csv`,`MEDHIST_{date}.csv`, `RECMHIST_{date}.csv`, `APOERES_{date}.csv`, plus outcome files used later (e.g., `CDR_{date}.csv`, `MMSE_{date}.csv`, `FAQ_{date}.csv`).
 
 **Main Processing Steps**
 - Merge preprocessed ADAS/clinical data with demographic and comorbidity flags.
@@ -32,7 +32,7 @@ This notebook implements preprocessing, cohort construction, and mixed-effects l
 - Intermediate datasets: `data/CSF_AD.csv`, `data/demo_and_comorb.csv` (created by preprocessing).
 
 **Dependencies**
-- Python packages: `pandas`, `numpy`, `matplotlib`, `seaborn`, `statsmodels` (and standard library).
+- Python packages: `pandas`, `numpy`, `matplotlib`, `seaborn`, `statsmodels` (and standard library), see requirements.txt file.
 
 **How to run**
 1. Ensure the `data/` folder contains the required CSV files listed above.

@@ -43,6 +43,3 @@ This notebook implements preprocessing, cohort construction, and mixed-effects l
 - Small missing-data checks and `.dropna()` steps are used in the notebook; review those before reproducing results for different cohorts.
 - If you plan to run analyses headlessly, convert critical cells to a script and call from the command line after setting up the environment.
 
----
-
-This README is intended for repository-level documentation. If you want, I can also extract a short `requirements.txt` and a minimal `run_analysis.sh` for reproducible runs.

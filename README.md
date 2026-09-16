@@ -35,7 +35,7 @@ This notebook implements preprocessing, cohort construction, and mixed-effects l
 - Python packages: `pandas`, `numpy`, `matplotlib`, `seaborn`, `statsmodels` (and standard library), see requirements.txt file.
 
 **How to run**
-1. Ensure the `data/` folder contains the required CSV files listed above.
+1. Ensure the `data/` folder contains the required CSV files listed above (fetch from ADNI, https://adni.loni.usc.edu/data-samples/adni-data/).
 2. Open and run the notebook `Behavioural_decline_MLMs.ipynb` end-to-end in a Python 3.8+ environment with the dependencies installed (e.g., a conda environment).
 3. Results will be saved under `linear_model_results/` and `quadratic_model_results/` and intermediate CSVs in `data/`.
 

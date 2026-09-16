@@ -7,7 +7,7 @@ This notebook implements preprocessing, cohort construction, and mixed-effects l
 - **Scope:** Data preprocessing, cohort derivation, diagnosis transition analysis, subgroup comparisons, MLM fitting, plotting, and saving results.
 
 **Data Inputs**
-- Required CSVs (store in `data/` and change the date for the date that you download the data on): `DXSUM_{date}.csv`, `PTDEMOG_{date}.csv`, `ADAS_{date}.csv`,`MEDHIST_{date}.csv`, `RECMHIST_{date}.csv`, `APOERES_{date}.csv`, plus outcome files used later (e.g., `CDR_{date}.csv`, `MMSE_{date}.csv`, `FAQ_{date}.csv`).
+- Required CSVs (store in `data/` and change the date for the date that you download the data on): `DXSUM_{date}.csv`, `PTDEMOG_{date}.csv`, `ADAS_{date}.csv`,`MEDHIST_{date}.csv`, `RECMHIST_{date}.csv`, `APOERES_{date}.csv`, `NPIQ {date}.csv`, plus outcome files used later (e.g., `CDR_{date}.csv`, `MMSE_{date}.csv`, `FAQ_{date}.csv`).
 
 **Main Processing Steps**
 - Merge preprocessed ADAS/clinical data with demographic and comorbidity flags.
